@@ -77,7 +77,15 @@ public :
         int FRONT_Position = FRONT;
         int REAR_position = REAR;
 
-        
+        //cek apakah antrian kosong
+        if (FRONT_Position == -1)
+        {
+            cout << "queue is empty\n";
+            return;
+        }
+
+        cout << "\nElements in the queue are ....\n";
+
     }
 
 
